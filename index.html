@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Mecânica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Titulo do Site-->
+    <h1 class="titulo">Oficina Mecânica</h1>
+    <h2 class="titulo">Oficina Especializada em Diesel</h2>
+<br>
+    <!-- Cabeçalho -->
+    <div class="nav header">
+        <div id="container-logo">
+            <a href="#home">Pagina Inicial</a>
+            <a href="#equipeProjeto">Equipe de Projeto</a>
+            <a href="#servicos">Serviço</a>
+            <a href="#formulario">Formulário Inscrição</a>
+            <a href="#contato">Contato</a>
+            <a href="#horario">Horário de Atendimento</a>
+
+        </div>
+
+    </div>
+
+    <div id="home">
+        <div id="main-image-container">
+            <div class="center-image main-image">
+                <div class="main-image-info">
+                    <div id="container-logo">
+                        <h2>Oficina Diesel Especializada</h2>
+                    </div>
+                    <p>Oficina Especializada em Veículos movido a Diesel</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Section Quem Somos-->
+    <div id="quemsomos">
+        <h2 id="textomain">Quem somos</h2>
+
+        <br>
+        <h3>A Oficina Mecânica, então localizada em taguatinga foi inaugurada em
+            janeiro de 2020. Assim, iniciou suas atividades com equipamentos de ponta. Proporcionando uma melhor
+            experiência ao cliente</h3>
+    </div>
+    <br>
+    <div id="equipeProjeto">
+        <h2 id="textomain">Equipe de Projeto</h2>
+        <br>
+        <form>
+            <ul>
+                <li>01 - Gerente</li>
+                <li>02 - Recepcionista</li>
+                <li>01 - Chefe de Oficina</li>
+                <li>01 - Lavador de carro</li>
+                <li>02 - Lanterneiro</li>
+                <li>02 - Eletricista de Auto</li>
+                <li>08 - Mecânicos</li>
+                <li>02 - Alinhador</li>
+                <li>01 - Especialista em Injeção Eletronica</li>
+            </ul>
+        </form>
+    </div>
+    <br>
+    <div id="servicos">
+        <h2 id="textomain">Serviços</h2>
+
+    </div>
+
+    <br>
+
+    <form>
+
+        <ul>
+            <li>Diagnóstico completo</li>
+            <li>Limpeza e reparo do sistema de arrefecimento</li>
+            <li>Troca de fluído de câmbio automático</li>
+            <li>Troca de embreagem</li>
+            <li>Manutenções preventivas e corretivas</li>
+            <li>Revisão geral de férias</li>
+            <li>Revisão completa da suspensão</li>
+            <li>Revisão do sistema de freios</li>
+            <li>Revisão do sistema de injeção eletrônica</li>
+            <li>Troca de correia dentada</li>
+            <li>Troca de óleo e filtros</li>
+            <li>Higienização do ar condicionado</li>
+        </ul>
+
+    </form>
+    <br>
+    <div id="formulario">
+        <h2 id="textomain">Formulário de Inscrição</h2>
+        <div class="container ">
+            <div id="lineleft"></div>
+            <div id="lineright"></div>
+        </div>
+
+        <form>
+            <label for="nomecompleto">Nome Completo</label><br>
+            <input type="text" name="nomecompleto"><br>
+            <label for="email">E-Mail</label><br>
+            <input type="email" name="email"><br>
+            <label for="cidade">Cidade</label><br>
+            <input name="cidade"><br>
+            <label for="estado">Estado</label><br>
+            <select name="estado">
+                <option value="">Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select><br><br>
+            <button type="submit">Enviar Formulário</button>
+
+            <br>
+        </form>
+    </div>
+    <br>
+
+    <div id="texto-main">
+        <h2 id="contato">Contato</h2>
+
+        <br>
+        <h2>
+           
+            <p> 61-99999-9999</p>
+            <p> aaaaaaaaa@gmail.com</p>
+        </h2>
+    </div>
+    <footer>
+        <div id="horario">
+            <p>
+                Horário de Atendimento<br>
+                Segunda a Sabado<br>
+                08:00 as 18:00<br>
+                Taguatinga Norte - Samdu<br>
+            </p>
+        </div>
+    </footer>
+</body>
+
+
+<script>
+    $('.nav a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        var id = $(this).attr('href'),
+            targetOffset = $(id).offset().top;
+
+        $('html, body').animate({
+            scrollTop: targetOffset - 200
+        }, 500);
+    });
+</script>
+
+</html>
